@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <canvas id="canvas"></canvas>
+    <div id="score">
+      <span id="player-score">0</span> - <span id="computer-score">0</span>
+    </div>
+    <div id="music-controls">
+      <button id="play-music">Play Music</button>
+      <button id="stop-music">Stop Music</button>
+    </div>
+  </div>
+  <audio id="background-music" loop>
+    <source src="music.mp3" type="audio/mp3">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
